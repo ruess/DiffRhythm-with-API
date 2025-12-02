@@ -1,0 +1,11 @@
+# DiffRhythm API Requirements
+# Install these in addition to the main DiffRhythm requirements.txt
+
+# FastAPI and server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Additional utilities
+pydantic==2.5.0
+python-dotenv==1.0.0
