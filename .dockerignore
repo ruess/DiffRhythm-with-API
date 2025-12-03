@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python cache
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation and assets
+*.md
+!Readme.md
+src/
+LICENSE.md
+
+# Docker files
+docker/
+docker-compose.yml
+
+# Examples and tests
+infer/example/output/
+infer/example/output-windows/
+
+# Storage (will be created at runtime)
+api_storage/
+
+# Scripts (not needed in container)
+scripts/
+
+# Training data (not needed for inference)
+dataset/
